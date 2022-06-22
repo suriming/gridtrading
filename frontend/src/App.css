@@ -1,5 +1,8 @@
 .App {
+  width: 100%;
   text-align: center;
+  margin: 20px auto;
+  padding: 20px auto;
 }
 
 .App-logo {
@@ -7,6 +10,28 @@
   pointer-events: none;
 }
 
+.App .App-title {
+  margin: 22px auto 30px;
+  font-size: 28px;
+  color: #fff;
+}
+
+.Container:after {
+  clear: both;
+  display: block;
+  content: "";
+}
+
+.Container .Column-left {
+  color: white;
+  float: left;
+  border-right: 1px solid #ddd;
+}
+
+.Container .Column-right {
+  float: right;
+  border-right: none;
+}
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
