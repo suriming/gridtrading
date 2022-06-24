@@ -1,5 +1,6 @@
 import "./App.css";
 import Box from "./Box";
+import ChartBox from "./ChartBox";
 import CreatSocketConnection from "./connect";
 
 function App() {
@@ -15,6 +16,7 @@ function App() {
         <div className="Column-left">
           BTC 현재가
           <CreatSocketConnection type="ticker" />
+          <ChartBox />
         </div>
         <div className="Column-right">
           <Box />

@@ -1,8 +1,8 @@
 .App {
-  width: 100%;
+  width: 97%;
   text-align: center;
-  margin: 20px auto;
-  padding: 20px auto;
+  margin: 30px auto auto;
+  padding: 30px auto;
 }
 
 .App-logo {
@@ -11,9 +11,13 @@
 }
 
 .App .App-title {
-  margin: 22px auto 30px;
-  font-size: 28px;
+  font-size: 35px;
   color: #fff;
+  align-items: center;
+  justify-content: center;
+}
+.Container {
+  margin-top: 50px;
 }
 
 .Container:after {

@@ -24,7 +24,7 @@ function CreatSocketConnection(type, conncectType, dataMaker) {
   };
 
   socket.onmessage = (e) => {
-    console.log("message");
+    //console.log("message");
     var enc = new TextDecoder("utf-8");
     var arr = new Uint8Array(e.data);
     var str_d = enc.decode(arr);
